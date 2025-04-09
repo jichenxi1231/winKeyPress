@@ -130,5 +130,6 @@ void addHotKey()
 
 int main()
 {
+    mousePositon();
     return 0;
 }

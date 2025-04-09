@@ -9,10 +9,10 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # 添加头文件的搜索路径
-include_directories(include)
+include_directories("D:/WinKeyPress/WinKeyPress1.0/include")
 
 # 添加库文件
-add_library(winKeyPress SHARED src/winKeyPress.cpp)  # SHARED：用于创建共享库（动态链接库）
+add_library(winKeyPress SHARED "D:/WinKeyPress/WinKeyPress1.0/src/winKeyPress.cpp")  # SHARED：用于创建共享库（动态链接库）
 
 # 设置库文件的输出目录
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
