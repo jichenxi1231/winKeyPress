@@ -33,9 +33,9 @@ typedef struct MousePosition  // 获取光标所在当前位置
     LONG y;
 }MousePosition;
 
-static ScreenSize GetScreenSIze(bool out_put);  // 获取分辨率函数，布偶值选择是否输出坐标
+ScreenSize GetScreenSIze(bool out_put);  // 获取分辨率函数，布偶值选择是否输出坐标
 
-static MousePosition GetMousePosition(bool out_put);  // 获取光标目前所在的坐标，鼠标坐标，布偶值选择是否输出坐标
+MousePosition GetMousePosition(bool out_put);  // 获取光标目前所在的坐标，鼠标坐标，布偶值选择是否输出坐标
 
 
 /************* press up flag **************/
